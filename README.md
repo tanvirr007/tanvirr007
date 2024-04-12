@@ -1,16 +1,17 @@
-### Hi there 👋
 
-<!--
-**tanvirr007/tanvirr007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <img src="https://profile-counter.glitch.me/tanvirr007/count.svg" />
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Tanvir's github stats](https://github-readme-stats.vercel.app/api?username=tanvirr007&theme=react&count_private=true&show_icons=true)](https://github.com/tanvirr007) 
+
+![stat](https://github-readme-streak-stats.herokuapp.com/?user=tanvirr007&theme=dark)
+
+<!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirr007&theme=react&layout=compact&show_icons=true)](https://github.com/tanvirr007)-->
+
+### Hello there, Here's a bit about me
+
+- 🔭 Working on Android development, studies, and business.
+- 📱 Learning advanced Android development.
+- 🤝 Interested in collaborating on Android projects.
+- 🎬 Loves to watch movie and TV Series.
+- 📫 Contact: [Telegram](https://t.me/tanvirr007)
