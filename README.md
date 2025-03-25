@@ -1,5 +1,6 @@
-[![](https://visitcount.itsvg.in/api?id=tanvirr007&icon=0&color=1)](https://visitcount.itsvg.in)
----
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=tanvirr007&label=Profile%20views&color=0e75b6&style=flat" alt="banvir" /> 
+</p>
 
 ### Hello there, Here's a bit about me
 - 🔭 Working on Android development, studies, and business.
