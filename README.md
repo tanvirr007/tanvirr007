@@ -11,7 +11,7 @@
 
 ### GitHub Stats
 
-| ![](https://github-readme-stats.vercel.app/api?username=tanvirr007&theme=onedark&hide_border=false&include_all_commits=true&count_private=false) | ![](https://github-readme-streak-stats.herokuapp.com/?user=tanvirr007&theme=onedark&hide_border=false) |
+| ![](https://github-readme-stats.vercel.app/api?username=tanvirr007&theme=onedark&hide_border=false&include_all_commits=true&count_private=false) | ![](https://github-readme-streak-stats.herokuapp.com/?user=tanvirr007) |
 |------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | ![](https://github-contributor-stats.vercel.app/api?username=tanvirr007&limit=5&theme=onedark&combine_all_yearly_contributions=true)          | ![](https://github-readme-stats.vercel.app/api/top-langs/?username=tanvirr007&theme=onedark&hide_border=false&include_all_commits=true&count_private=false&layout=compact) |
 
