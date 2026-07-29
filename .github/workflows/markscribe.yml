@@ -1,0 +1,42 @@
+name: markscribe
+on:
+  push:
+  workflow_dispatch: # Allows manual execution
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight
+jobs:
+  markscribe:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Generate README
+        uses: muesli/readme-scribe@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        with:
+          template: 'README.gtpl'
+          writeTo: 'README.md'
+      
+      - name: Generate Change-Id
+        id: change_id
+        run: |
+          CID="I$(openssl rand -hex 20)"
+          echo "cid=${CID}" >> $GITHUB_OUTPUT
+      
+      - name: Commit README
+        uses: stefanzweifel/git-auto-commit-action@v5
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          commit_message: |
+            markscribe: update README.md
+            
+            Change-Id: ${{ steps.change_id.outputs.cid }}
+          commit_options: '--signoff'
+          commit_user_name: 'tanvirr007'
+          commit_user_email: '43490582+tanvirr007@users.noreply.github.com'
+          commit_author: 'tanvirr007 <43490582+tanvirr007@users.noreply.github.com>'
