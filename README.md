@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
-- [lowlighter/metrics](https://github.com/lowlighter/metrics) - 📊 An infographics generator with 30&#43; plugins and 300&#43; options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!
 - [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
 - [react/react](https://github.com/react/react) - The library for web and native user interfaces.
 - [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) - Convert any web page to clean, readable Markdown with just one click.
 - [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - The open-source CapCut alternative
+- [fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) - The most advanced free and open-source browser fingerprinting library
