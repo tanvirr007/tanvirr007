@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
+- [snekxs/openmouse](https://github.com/snekxs/openmouse) - 
 - [JayedAhsan/BornoTSF](https://github.com/JayedAhsan/BornoTSF) - A lightweight, open-source Windows Text Services Framework (TSF) Input Method Editor (IME) for Bangla typing
 - [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
 - [react/react](https://github.com/react/react) - The library for web and native user interfaces.
 - [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) - Convert any web page to clean, readable Markdown with just one click.
-- [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) - The open-source CapCut alternative
