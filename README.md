@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
 - [golang/go](https://github.com/golang/go) - The Go programming language
 - [snekxs/openmouse](https://github.com/snekxs/openmouse) - 
 - [JayedAhsan/BornoTSF](https://github.com/JayedAhsan/BornoTSF) - A lightweight, open-source Windows Text Services Framework (TSF) Input Method Editor (IME) for Bangla typing
 - [openai/whisper](https://github.com/openai/whisper) - Robust Speech Recognition via Large-Scale Weak Supervision
-- [react/react](https://github.com/react/react) - The library for web and native user interfaces.
