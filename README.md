@@ -8,19 +8,19 @@
 
 ### Currently i am working on
 
+- [tanvirr007/cash-figure-app](https://github.com/tanvirr007/cash-figure-app) - Offline, ad-free, open source cash counter app maintained by Tanvir Hasan
 - [tanvirr007/study-releases](https://github.com/tanvirr007/study-releases) - A secure, feature-packed Kotlin Android WebView app
 - [bhaibhaitraders/bhaibhaitraders.github.io](https://github.com/bhaibhaitraders/bhaibhaitraders.github.io) - Redirector
 - [tanvirr007/wifi](https://github.com/tanvirr007/wifi) - A simple web portal to manage and share my personal home Wi-Fi credentials
 - [tanvirr007/tanvirr007.github.io](https://github.com/tanvirr007/tanvirr007.github.io) - Redirector
-- [Mumbai-University-PYQ/PYQ](https://github.com/Mumbai-University-PYQ/PYQ) - These PYQ are from Mumbai University Open Learning. 
 
 ### My latest projects
 
+- [tanvirr007/cash-figure-app](https://github.com/tanvirr007/cash-figure-app) - Offline, ad-free, open source cash counter app maintained by Tanvir Hasan
 - [tanvirr007/wifi](https://github.com/tanvirr007/wifi) - A simple web portal to manage and share my personal home Wi-Fi credentials
 - [tanvirr007/study-releases](https://github.com/tanvirr007/study-releases) - A secure, feature-packed Kotlin Android WebView app
 - [tanvirr007/classess](https://github.com/tanvirr007/classess) - A simple web-based class routine viewer
 - [tanvirr007/cv](https://github.com/tanvirr007/cv) - cv
-- [tanvirr007/photocard](https://github.com/tanvirr007/photocard) - 
 
 ### My recent Pull Requests
 
