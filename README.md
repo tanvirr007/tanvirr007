@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
+- [samdenty/Wi-PWN](https://github.com/samdenty/Wi-PWN) - ESP8266 firmware for performing deauthentication attacks, with ease.
 - [Zhilips/Zperiod](https://github.com/Zhilips/Zperiod) - Interactive Periodic table with 3D atoms
 - [szabodanika/microbin](https://github.com/szabodanika/microbin) - A secure, configurable file-sharing and URL shortening web app written in Rust.
 - [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
 - [golang/go](https://github.com/golang/go) - The Go programming language
-- [OpenMouse-Project/openmouse](https://github.com/OpenMouse-Project/openmouse) - 
