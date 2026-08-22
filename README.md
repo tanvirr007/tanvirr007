@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
+- [Mahmud0808/TeleDrive](https://github.com/Mahmud0808/TeleDrive) - Android app that turns a private Telegram channel into personal cloud storage. Automatic photo backup, optional end-to-end encryption, and a full file manager.
+- [pheralb/svgl](https://github.com/pheralb/svgl) - 🧩 A beautiful library with SVG logos. Built with Sveltekit &amp; Tailwind CSS.
 - [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) - Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
 - [samdenty/Wi-PWN](https://github.com/samdenty/Wi-PWN) - ESP8266 firmware for performing deauthentication attacks, with ease.
 - [Zhilips/Zperiod](https://github.com/Zhilips/Zperiod) - Interactive Periodic table with 3D atoms
-- [szabodanika/microbin](https://github.com/szabodanika/microbin) - A secure, configurable file-sharing and URL shortening web app written in Rust.
-- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) - A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.
