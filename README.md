@@ -8,8 +8,8 @@
 
 ### Currently i am working on
 
-- [tanvirr007/defaulty-app](https://github.com/tanvirr007/defaulty-app) - 
 - [tanvirr007/cash-figure-app](https://github.com/tanvirr007/cash-figure-app) - Offline, ad-free, open source cash counter app maintained by Tanvir Hasan
+- [tanvirr007/defaulty-app](https://github.com/tanvirr007/defaulty-app) - 
 - [tanvirr007/study-releases](https://github.com/tanvirr007/study-releases) - A secure, feature-packed Kotlin Android WebView app
 - [bhaibhaitraders/bhaibhaitraders.github.io](https://github.com/bhaibhaitraders/bhaibhaitraders.github.io) - Redirector
 - [tanvirr007/wifi](https://github.com/tanvirr007/wifi) - A simple web portal to manage and share my personal home Wi-Fi credentials
