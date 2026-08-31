@@ -34,7 +34,7 @@
 ### Recent Stars
 
 - [MithunWijayasiri/dotclaude](https://github.com/MithunWijayasiri/dotclaude) - My Claude Code setup &amp; Skills.
-- [Mahmud0808/TeleDrive](https://github.com/Mahmud0808/TeleDrive) - Android app that turns a private Telegram channel into personal cloud storage. Automatic photo backup, optional end-to-end encryption, and a full file manager.
+- [Mahmud0808/TeleDrive](https://github.com/Mahmud0808/TeleDrive) - Turn a private Telegram channel into your personal cloud drive. Android &#43; Windows, auto backup, optional E2E encryption, built-in file manager and player.
 - [pheralb/svgl](https://github.com/pheralb/svgl) - 🧩 A beautiful library with SVG logos. Built with Sveltekit &amp; Tailwind CSS.
 - [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) - Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
 - [samdenty/Wi-PWN](https://github.com/samdenty/Wi-PWN) - ESP8266 firmware for performing deauthentication attacks, with ease.
