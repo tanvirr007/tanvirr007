@@ -8,7 +8,7 @@
 
 ### Currently i am working on
 
-- [tanvirr007/quarry-app](https://github.com/tanvirr007/quarry-app) - Android disk space analyzer with visual treemaps
+- [tanvirr007/quarry-app](https://github.com/tanvirr007/quarry-app) - Android storage analyzer with visual treemaps
 - [tanvirr007/cash-figure-app](https://github.com/tanvirr007/cash-figure-app) - Offline, ad-free, open source cash counter app maintained by Tanvir Hasan
 - [tanvirr007/defaulty-app](https://github.com/tanvirr007/defaulty-app) - 
 - [bhaibhaitraders/bhaibhaitraders.github.io](https://github.com/bhaibhaitraders/bhaibhaitraders.github.io) - Redirector
@@ -16,7 +16,7 @@
 
 ### My latest projects
 
-- [tanvirr007/quarry-app](https://github.com/tanvirr007/quarry-app) - Android disk space analyzer with visual treemaps
+- [tanvirr007/quarry-app](https://github.com/tanvirr007/quarry-app) - Android storage analyzer with visual treemaps
 - [tanvirr007/defaulty-app](https://github.com/tanvirr007/defaulty-app) - 
 - [tanvirr007/cash-figure-app](https://github.com/tanvirr007/cash-figure-app) - Offline, ad-free, open source cash counter app maintained by Tanvir Hasan
 - [tanvirr007/wifi](https://github.com/tanvirr007/wifi) - A simple web portal to manage and share my personal home Wi-Fi credentials
