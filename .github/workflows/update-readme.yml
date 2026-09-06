@@ -1,38 +1,41 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
-name: Metrics
+name: Update Profile
+
 on:
   schedule:
     - cron: "0 1 * * *" # Run daily at 7:00 AM BST (01:00 UTC)
-  workflow_dispatch:              # Allows manual execution
-  push: {branches: ["main"]}
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "README.gtpl"
+      - ".github/workflows/update-readme.yml"
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: true
+
 jobs:
-  github-metrics:
+  profile-update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    concurrency:
-      group: metrics-update
-      cancel-in-progress: true
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
           path: ~/.cache
           key: ${{ runner.os }}-cache-${{ hashFiles('**/lockfiles') }}
-      - name: Generate Change-Id
-        id: change_id
-        run: |
-          CID="I$(openssl rand -hex 20)"
-          echo "cid=${CID}" >> $GITHUB_OUTPUT
-      - uses: lowlighter/metrics@latest
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_PAT }}
-          committer_message: |
-            chore: update metrics
-            
-            Change-Id: ${{ steps.change_id.outputs.cid }}
-
-          # Options
+          filename: github-metrics.svg
+          output_action: none
           user: tanvirr007
           template: classic
           base: header, activity, community, repositories, metadata
@@ -46,3 +49,30 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
 
+      - name: Generate README
+        uses: muesli/readme-scribe@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        with:
+          template: 'README.gtpl'
+          writeTo: 'README.md'
+
+      - name: Generate Change-Id
+        id: change_id
+        run: |
+          CID="I$(openssl rand -hex 20)"
+          echo "cid=${CID}" >> $GITHUB_OUTPUT
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          commit_message: |
+            chore: update profile metrics and readme
+            
+            Change-Id: ${{ steps.change_id.outputs.cid }}
+          commit_options: '--signoff'
+          commit_user_name: 'tanvirr007'
+          commit_user_email: '43490582+tanvirr007@users.noreply.github.com'
+          commit_author: 'tanvirr007 <43490582+tanvirr007@users.noreply.github.com>'
