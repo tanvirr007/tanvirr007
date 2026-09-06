@@ -1,9 +1,12 @@
 name: markscribe
 on:
   push:
+    branches: ["main"]
+    paths-ignore:
+      - "github-metrics.svg"
   workflow_dispatch: # Allows manual execution
   schedule:
-    - cron: '0 0 * * *' # Run daily at midnight
+    - cron: '15 1 * * *' # Run daily at 7:15 AM BST (01:15 UTC) - staggered to prevent git conflicts with Metrics
 jobs:
   markscribe:
     runs-on: ubuntu-latest
