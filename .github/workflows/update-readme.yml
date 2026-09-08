@@ -49,6 +49,11 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
 
+      - name: Move metrics
+        run: |
+          sudo mv /metrics_renders/* ./
+          sudo chown -R $USER:$USER ./github-metrics.svg
+
       - name: Generate README
         uses: muesli/readme-scribe@master
         env:
