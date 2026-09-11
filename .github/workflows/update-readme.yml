@@ -3,13 +3,14 @@ name: Update Profile
 
 on:
   schedule:
-    - cron: "0 1 * * *" # Run daily at 7:00 AM BST (01:00 UTC)
+    - cron: "30 2 * * *" # Run daily at 8:30 AM BST (02:30 UTC)
   workflow_dispatch:
   push:
     branches: ["main"]
     paths:
       - "README.gtpl"
       - ".github/workflows/update-readme.yml"
+      - ".github/scripts/notify.py"
 
 concurrency:
   group: profile-update
@@ -20,15 +21,29 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Telegram - Start Live Daemon
+        run: python .github/scripts/notify.py start
 
       - name: Cache dependencies
         uses: actions/cache@v4
         with:
           path: ~/.cache
           key: ${{ runner.os }}-cache-${{ hashFiles('**/lockfiles') }}
+
+      - name: Telegram - Update Progress (Metrics)
+        run: python .github/scripts/notify.py step "Generating GitHub metrics..."
 
       - name: Generate metrics
         uses: lowlighter/metrics@latest
@@ -54,6 +69,9 @@ jobs:
           sudo mv /metrics_renders/* ./
           sudo chown -R $USER:$USER ./github-metrics.svg
 
+      - name: Telegram - Update Progress (README)
+        run: python .github/scripts/notify.py step "Rendering README template..."
+
       - name: Generate README
         uses: muesli/readme-scribe@master
         env:
@@ -68,7 +86,11 @@ jobs:
           CID="I$(openssl rand -hex 20)"
           echo "cid=${CID}" >> $GITHUB_OUTPUT
 
+      - name: Telegram - Update Progress (Committing)
+        run: python .github/scripts/notify.py step "Saving and committing changes..."
+
       - name: Commit changes
+        id: auto_commit
         uses: stefanzweifel/git-auto-commit-action@v5
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -81,3 +103,17 @@ jobs:
           commit_user_name: 'tanvirr007'
           commit_user_email: '43490582+tanvirr007@users.noreply.github.com'
           commit_author: 'tanvirr007 <43490582+tanvirr007@users.noreply.github.com>'
+
+      - name: Telegram - Notify Success
+        if: success()
+        env:
+          CHANGE_ID: ${{ steps.change_id.outputs.cid }}
+          HAS_CHANGES: ${{ steps.auto_commit.outputs.changes_detected }}
+        run: python .github/scripts/notify.py finish success
+
+      - name: Telegram - Notify Failure
+        if: failure()
+        run: python .github/scripts/notify.py finish fail "Workflow run failed. Check logs for details."
+
+
+

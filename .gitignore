@@ -1,0 +1,7 @@
+# Telegram bot temporary state
+.tg_*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
