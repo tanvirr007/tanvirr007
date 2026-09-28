@@ -11,8 +11,8 @@
 - [tanvirr007/cash-figure-app](https://github.com/tanvirr007/cash-figure-app) - Offline, ad-free, open source cash counter app maintained by Tanvir Hasan
 - [tanvirr007/quarry-app](https://github.com/tanvirr007/quarry-app) - An Android storage analyzer app with treemap visualization
 - [tanvirr007/defaulty-app](https://github.com/tanvirr007/defaulty-app) - Manage default applications on your phone
-- [bhaibhaitraders/bhaibhaitraders.github.io](https://github.com/bhaibhaitraders/bhaibhaitraders.github.io) - Redirector
 - [tanvirr007/study-releases](https://github.com/tanvirr007/study-releases) - A secure, feature-packed Kotlin Android WebView app
+- [bhaibhaitraders/bhaibhaitraders.github.io](https://github.com/bhaibhaitraders/bhaibhaitraders.github.io) - Redirector
 
 ### My latest projects
 
