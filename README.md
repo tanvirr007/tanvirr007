@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
+- [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
 - [anirudhgupta109/PixelXpert-Next](https://github.com/anirudhgupta109/PixelXpert-Next) - mixed Xposed&#43;Magisk module for customization of Google Pixel rom of Android 12&#43;
 - [DayuanJiang/PecoFence](https://github.com/DayuanJiang/PecoFence) - A free, open-source Stardock Fences alternative for Windows 11. Glass fences, live folders, tabs, Peek. Rust, ten languages, portable.
 - [alibaba/open-code-review](https://github.com/alibaba/open-code-review) - Secure, fast, efficient, battle-tested at Alibaba&#39;s scale. Hybrid architecture code review tool: deterministic pipelines &#43; LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
 - [AndroidCSOfficial/android-code-studio](https://github.com/AndroidCSOfficial/android-code-studio) - Android Code Studio is an IDE for Android to develop full featured Android apps.
-- [usestrix/strix](https://github.com/usestrix/strix) - Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
