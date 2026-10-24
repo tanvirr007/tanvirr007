@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
+- [werdio325-png/antigravity-android](https://github.com/werdio325-png/antigravity-android) - Google Antigravity Standalone for Android - Autonomous ARM64 Client &amp; Freeform Environment
 - [googlefonts/googlesans-flex](https://github.com/googlefonts/googlesans-flex) - Google Sans Flex
 - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
 - [anirudhgupta109/PixelXpert-Next](https://github.com/anirudhgupta109/PixelXpert-Next) - mixed Xposed&#43;Magisk module for customization of Google&#39;s Pixel ROM (Android 17&#43;)
 - [DayuanJiang/PecoFence](https://github.com/DayuanJiang/PecoFence) - A free, open-source Stardock Fences alternative for Windows 11. Glass fences, live folders, tabs, Peek. Rust, ten languages, portable.
-- [alibaba/open-code-review](https://github.com/alibaba/open-code-review) - Secure, fast, efficient, battle-tested at Alibaba&#39;s scale. Hybrid architecture code review tool: deterministic pipelines &#43; LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
