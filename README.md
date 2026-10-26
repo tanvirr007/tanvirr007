@@ -8,15 +8,15 @@
 
 ### Currently i am working on
 
-- [tanvirr007/android-apk-builder](https://github.com/tanvirr007/android-apk-builder) - Universal headless Android APK compilation engine and Windows CLI toolkit (zero Android Studio required)
+- [tanvirr007/android-apk-builder](https://github.com/tanvirr007/android-apk-builder) - Universal headless Android APK compilation engine and Windows CLI toolkit
 - [tanvirr007/cash-figure-app](https://github.com/tanvirr007/cash-figure-app) - Offline, ad-free, open source cash counter app maintained by Tanvir Hasan
 - [tanvirr007/quarry-app](https://github.com/tanvirr007/quarry-app) - An Android storage analyzer app with treemap visualization
 - [tanvirr007/defaulty-app](https://github.com/tanvirr007/defaulty-app) - Manage default applications on your phone
-- [bhaibhaitraders/bhaibhaitraders.github.io](https://github.com/bhaibhaitraders/bhaibhaitraders.github.io) - Redirector
+- [tanvirr007/study-releases](https://github.com/tanvirr007/study-releases) - A secure, feature-packed Kotlin Android WebView app
 
 ### My latest projects
 
-- [tanvirr007/android-apk-builder](https://github.com/tanvirr007/android-apk-builder) - Universal headless Android APK compilation engine and Windows CLI toolkit (zero Android Studio required)
+- [tanvirr007/android-apk-builder](https://github.com/tanvirr007/android-apk-builder) - Universal headless Android APK compilation engine and Windows CLI toolkit
 - [tanvirr007/quarry-app](https://github.com/tanvirr007/quarry-app) - An Android storage analyzer app with treemap visualization
 - [tanvirr007/defaulty-app](https://github.com/tanvirr007/defaulty-app) - Manage default applications on your phone
 - [tanvirr007/cash-figure-app](https://github.com/tanvirr007/cash-figure-app) - Offline, ad-free, open source cash counter app maintained by Tanvir Hasan
