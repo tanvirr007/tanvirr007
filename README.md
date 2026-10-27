@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
+- [cursor/plugins](https://github.com/cursor/plugins) - Cursor plugin specification and official plugins
 - [werdio325-png/antigravity-android](https://github.com/werdio325-png/antigravity-android) - Google Antigravity Standalone for Android - Autonomous ARM64 Client &amp; Freeform Environment
 - [googlefonts/googlesans-flex](https://github.com/googlefonts/googlesans-flex) - Google Sans Flex
 - [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
 - [anirudhgupta109/PixelXpert-Next](https://github.com/anirudhgupta109/PixelXpert-Next) - mixed Xposed&#43;Magisk module for customization of Google&#39;s Pixel ROM (Android 17&#43;)
-- [DayuanJiang/PecoFence](https://github.com/DayuanJiang/PecoFence) - A free, open-source Stardock Fences alternative for Windows 11. Glass fences, live folders, tabs, Peek. Rust, ten languages, portable.
