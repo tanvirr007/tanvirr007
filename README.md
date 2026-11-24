@@ -33,8 +33,8 @@
 
 ### Recent Stars
 
-- [ItsNotRexed/Leonida](https://github.com/ItsNotRexed/Leonida) - Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6
 - [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) - misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux
 - [cursor/plugins](https://github.com/cursor/plugins) - Cursor plugin specification and official plugins
 - [werdio325-png/antigravity-android](https://github.com/werdio325-png/antigravity-android) - Google Antigravity Standalone for Android - Autonomous ARM64 Client &amp; Freeform Environment
 - [googlefonts/googlesans-flex](https://github.com/googlefonts/googlesans-flex) - Google Sans Flex
+- [morluto/rea](https://github.com/morluto/rea) - Reverse engineer anything with agents, from app behavior down to native binaries.
